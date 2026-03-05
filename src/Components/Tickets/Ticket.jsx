@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Ticket = ({ ticket, handleTask, progressCount, setProgressCount }) => {
+const Ticket = ({ ticket, progressCount, setProgressCount, selectedTasks, setSelectedTasks }) => {
 
+    const handleTask = (ticket) => {
+            const newTasks = [...selectedTasks, ticket];
+            setSelectedTasks(newTasks);
+        };
+    
     return (
         <div onClick={()=>{
-            handleTask()
+            handleTask(ticket)
             setProgressCount(progressCount+1)
         }}>
             <div className="card bg-base-100 w-96 shadow-sm">

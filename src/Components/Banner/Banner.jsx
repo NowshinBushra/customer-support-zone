@@ -1,8 +1,9 @@
 import React from 'react';
 import Inprogress from '../Inprogress/Inprogress';
-import Resolved from '../Resolved/Resolved';
+import Resolved from '../ResolvedTask/ResolvedTask';
+import ResolvedCount from '../ResolvedCount/ResolvedCount';
 
-const Banner = ({progressCount}) => {
+const Banner = ({progressCount, resolveCount}) => {
   return (
     <div className='flex mx-auto w-1/2'>
       <div>
@@ -10,7 +11,7 @@ const Banner = ({progressCount}) => {
       </div>
 
       <div>
-        <Resolved></Resolved>
+        <ResolvedCount resolveCount={resolveCount}></ResolvedCount>
       </div>
     </div>
   );

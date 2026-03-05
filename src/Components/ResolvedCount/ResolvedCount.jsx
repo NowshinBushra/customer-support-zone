@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Resolved = () => {
+const ResolvedCount = ({resolveCount}) => {
     return (
         <div>
             <p>Resolved</p>
-        <h3>0</h3>
+            <h3>{resolveCount}</h3>
         </div>
     );
 };
 
-export default Resolved;
+export default ResolvedCount;
