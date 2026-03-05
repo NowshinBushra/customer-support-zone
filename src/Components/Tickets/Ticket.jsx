@@ -1,14 +1,20 @@
 import React from 'react';
 
-const Ticket = ({ ticket }) => {
+const Ticket = ({ ticket, handleTask, progressCount, setProgressCount }) => {
+
     return (
-        <div>
+        <div onClick={()=>{
+            handleTask()
+            setProgressCount(progressCount+1)
+        }}>
             <div className="card bg-base-100 w-96 shadow-sm">
                 <div className="card-body">
                     <h2 className="card-title">
-                        {ticket.title}
-                        <div className="badge badge-secondary justify-end">{ticket.status}</div>
-                    </h2>
+                        {ticket.title}</h2>
+                        {
+                            ticket.status==="Open"? <div className="badge badge-success">{ticket.status}</div>
+                                                  : <div className="badge badge-warning">{ticket.status}</div>
+                        }
                     <p>{ticket.description}</p>
                     <div className="card-actions">
                         <div className="badge badge-outline">{ticket.id}</div>
