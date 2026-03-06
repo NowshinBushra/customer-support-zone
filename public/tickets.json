@@ -4,134 +4,134 @@
     "title": "Login page not loading",
     "description": "Users are unable to access the login page after the latest deployment.",
     "customer": "ABC Corporation",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
-    "createdAt": "2026-03-01"
+    "created-at": "2026-03-01"
   },
   {
     "id": 1002,
     "title": "Payment gateway timeout issue",
     "description": "Payment process fails due to timeout errors during checkout.",
     "customer": "Global Mart",
-    "priority": "Critical",
+    "priority": "LOW",
     "status": "In Progress",
-    "createdAt": "2026-03-02"
+    "created-at": "2026-03-02"
   },
   {
     "id": 1003,
     "title": "Profile image upload error",
     "description": "Customers cannot upload profile pictures in the dashboard.",
     "customer": "TechNova Ltd.",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "In Progress",
-    "createdAt": "2026-03-02"
+    "created-at": "2026-03-02"
   },
   {
     "id": 1004,
     "title": "Dashboard statistics incorrect",
     "description": "Sales data is not updating correctly in the admin dashboard.",
     "customer": "NextGen Solutions",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
-    "createdAt": "2026-03-03"
+    "created-at": "2026-03-03"
   },
   {
     "id": 1005,
     "title": "Email notifications not sent",
     "description": "System fails to send email notifications after order confirmation.",
     "customer": "Bright Future Inc.",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
-    "createdAt": "2026-03-03"
+    "created-at": "2026-03-03"
   },
   {
     "id": 1006,
     "title": "Slow website performance",
     "description": "Website loading speed is very slow during peak hours.",
     "customer": "Urban Retail",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "In Progress",
-    "createdAt": "2026-03-03"
+    "created-at": "2026-03-03"
   },
   {
     "id": 1007,
     "title": "404 error on blog pages",
     "description": "Some blog URLs return 404 error unexpectedly.",
     "customer": "Creative Minds",
-    "priority": "Low",
+    "priority": "MEDIUM",
     "status": "Open",
-    "createdAt": "2026-03-04"
+    "created-at": "2026-03-04"
   },
   {
     "id": 1008,
     "title": "Password reset link expired",
     "description": "Reset password links are expiring immediately after generation.",
     "customer": "SafeBank Ltd.",
-    "priority": "Critical",
+    "priority": "LOW",
     "status": "In Progress",
-    "createdAt": "2026-03-04"
+    "created-at": "2026-03-04"
   },
   {
     "id": 1009,
     "title": "Mobile layout broken",
     "description": "UI elements overlap on smaller screen devices.",
     "customer": "SmartTech",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "In Progress",
-    "createdAt": "2026-03-04"
+    "created-at": "2026-03-04"
   },
   {
     "id": 1010,
     "title": "Search feature not returning results",
     "description": "Search queries return empty results even for valid keywords.",
     "customer": "InfoWorld",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   },
   {
     "id": 1011,
     "title": "Admin role permission issue",
     "description": "Admin users cannot access user management section.",
     "customer": "Enterprise Hub",
-    "priority": "Critical",
+    "priority": "LOW",
     "status": "Open",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   },
   {
     "id": 1012,
     "title": "Invoice PDF download failed",
     "description": "Invoice PDF is not generating for completed orders.",
     "customer": "RetailPro",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   },
   {
     "id": 1013,
     "title": "API authentication error",
     "description": "Third-party API integration fails due to authentication error.",
     "customer": "CloudNet",
-    "priority": "Critical",
+    "priority": "LOW",
     "status": "In Progress",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   },
   {
     "id": 1014,
     "title": "Data export CSV incorrect format",
     "description": "Exported CSV file contains mismatched column headers.",
     "customer": "DataWorks",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "In Progress",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   },
   {
     "id": 1015,
     "title": "Session timeout too short",
     "description": "User sessions expire within 2 minutes of inactivity.",
     "customer": "SecureSys",
-    "priority": "Low",
+    "priority": "LOW",
     "status": "Open",
-    "createdAt": "2026-03-05"
+    "created-at": "2026-03-05"
   }
 ]

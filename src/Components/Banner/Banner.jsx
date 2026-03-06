@@ -5,14 +5,15 @@ import ResolvedCount from '../ResolvedCount/ResolvedCount';
 
 const Banner = ({progressCount, resolveCount}) => {
   return (
-    <div className='flex mx-auto w-1/2'>
-      <div>
+    <div className='max-w-6xl mx-auto grid md:grid-cols-2 gap-6 text-white pt-10 px-4'>
+      
+      
         <Inprogress progressCount={progressCount}></Inprogress>
-      </div>
 
-      <div>
+      
         <ResolvedCount resolveCount={resolveCount}></ResolvedCount>
-      </div>
+      
+
     </div>
   );
 };
