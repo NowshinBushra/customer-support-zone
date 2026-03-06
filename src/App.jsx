@@ -1,5 +1,6 @@
 import { Suspense, useState } from 'react';
-import './App.css'
+import './App.css';
+import { ToastContainer } from 'react-toastify';
 import Banner from './Components/Banner/Banner';
 import Navbar from './Components/Navbar/Navbar';
 import Tickets from './Components/Tickets/Tickets'
@@ -25,7 +26,6 @@ function App() {
 
   const removeTaskTicket = (taskTicket) => {
     const filteredTickets = selectedTasks.filter(tt => tt.id !== taskTicket.id);
-    console.log(filteredTickets);
     setSelectedTasks(filteredTickets);
   }
 
@@ -65,9 +65,10 @@ function App() {
           </div>
         </div>
 
-      <Footer></Footer>
+        <Footer></Footer>
       </div>
 
+      <ToastContainer />
     </>
   )
 }

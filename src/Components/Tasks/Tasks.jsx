@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Tasks = ({ selectedTasks, removeTaskTicket, resolveCount, setResolveCount, progressCount, setProgressCount, 
                     resolvedTask, setResolvedTask}) => {
@@ -6,6 +7,7 @@ const Tasks = ({ selectedTasks, removeTaskTicket, resolveCount, setResolveCount,
     const handleResolved = (task)=>{
         const newResolved = [...resolvedTask, task];
         setResolvedTask(newResolved);
+        toast(`Your "${task.title}" task is resolved`)
     };
     const handleRemoveTask=(task)=>{
         removeTaskTicket(task)

@@ -14,7 +14,7 @@
     "description": "Payment process fails due to timeout errors during checkout.",
     "customer": "Global Mart",
     "priority": "LOW",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-02"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Customers cannot upload profile pictures in the dashboard.",
     "customer": "TechNova Ltd.",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-02"
   },
   {
@@ -50,7 +50,7 @@
     "description": "Website loading speed is very slow during peak hours.",
     "customer": "Urban Retail",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-03"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Reset password links are expiring immediately after generation.",
     "customer": "SafeBank Ltd.",
     "priority": "LOW",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-04"
   },
   {
@@ -77,7 +77,7 @@
     "description": "UI elements overlap on smaller screen devices.",
     "customer": "SmartTech",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-04"
   },
   {
@@ -113,7 +113,7 @@
     "description": "Third-party API integration fails due to authentication error.",
     "customer": "CloudNet",
     "priority": "LOW",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-05"
   },
   {
@@ -122,7 +122,7 @@
     "description": "Exported CSV file contains mismatched column headers.",
     "customer": "DataWorks",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "In-Progress",
     "created-at": "2026-03-05"
   },
   {

@@ -10,7 +10,7 @@ const ResolvedTask = ({ resolvedTask }) => {
                     : <div>
                         {
                             resolvedTask.map(task => 
-                                <div className='p-4 m-3 text-lg font-medium text-gray-600 shadow-lg bg-yellow-50'>{task.title}</div>)
+                                <div key={task.id} className='p-4 m-3 text-lg font-medium text-gray-600 shadow-lg bg-yellow-50'>{task.title}</div>)
                         }
                     </div>
             }
